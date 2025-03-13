@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology Professional Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section with Planetary Animation -->
+    <header>
+        <h1>Planetary Movements in Zodiac Signs</h1>
+        <canvas id="planetCanvas"></canvas>
+    </header>
+
+    <!-- Name and Qualification -->
+    <section id="qualification">
+        <h2>Sathish Acharya Kommera</h2>
+        <p>M.A (Astrology)</p>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <p>With over 12+ years of experience in Vedic Astrology, Horoscope Analysis, Remidies, ...</p>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise">
+        <h2>Expertise In</h2>
+        <ul>
+            <li>Vedic Astrology</li>
+            <li>Numerology</li>
+            <li>Horoscope Analysis</li>
+            
+        </ul>
+    </section>
+
+    <!-- Methods Section -->
+    <section id="methods">
+        <h2>Methods</h2>
+        <ul>
+            <li>Parashara Astrology</li>
+            <li>BVN System</li>
+           
+        </ul>
+    </section>
+
+    <!-- Guru Section -->
+    <section id="guru">
+        <h2>Guru</h2>
+        <img src="guru.jpg" alt="Guru Image">
+        <p>Brahamachary Kandukuri</p>
+    </section>
+
+    <!-- Astrology Planets Slider -->
+    <section id="slider">
+        <h2>Astrological Movements</h2>
+        <div class="slider">
+            <img src="planet1.jpg" alt="Planet Image">
+            <img src="planet2.jpg" alt="Planet Image">
+            <img src="planet3.jpg" alt="Planet Image">
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="tel" id="mobile" placeholder="Your Mobile Number" required>
+            <textarea id="query" placeholder="Your Query" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="message"></p>
+    </section>
+
+    <!-- Visitor Counter -->
+    <footer>
+        <p>Website Visitors: <span id="visitorCount">0</span></p>
+    </footer>
+
+    <script src="planets.js"></script>
+	
+</body>
+</html>
